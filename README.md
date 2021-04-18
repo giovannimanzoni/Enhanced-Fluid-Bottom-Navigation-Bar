@@ -6,6 +6,12 @@
 
 This project improves the customization of [10clouds' fluid tab bar for React Native](https://github.com/10clouds/FluidBottomNavigation-rn).
 
+What's New in 0.2.5:
+- Fix missing "useNativeDriver: false" in index.js
+
+What's New in 0.2.4:
+- ?
+
 What's New in 0.2.2/0.2.3:
 - Fixed and issue where `Zocial` icons were not being rendered properly.
 - Formatting and linting.
@@ -23,7 +29,7 @@ Changelog:
 - Fixed an issue where the default font family causes an `expo-font` error in newer versions of Expo.
 - Fixed an issue where font scales poorly for long tab names when font size is not specified.
 
-![Sample](https://raw.githubusercontent.com/VictorLi08/Enhanced-Fluid-Bottom-Navigation-Bar/master/static/sample.gif)
+![Sample](https://raw.githubusercontent.com/giovannimanzoni/Enhanced-Fluid-Bottom-Navigation-Bar/master/static/sample.gif)
 
 ## Installation
 
