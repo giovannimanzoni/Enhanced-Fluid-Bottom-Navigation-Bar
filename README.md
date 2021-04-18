@@ -1,12 +1,13 @@
 # Enhanced Fluid Bottom Navigation Bar
 
-[![NpmVersion](https://img.shields.io/npm/v/enhanced-fluid-bottom-navigation-bar.svg?style=flat-square)](https://www.npmjs.com/package/enhanced-fluid-bottom-navigation-bar)
-[![NpmLicense](https://img.shields.io/npm/l/enhanced-fluid-bottom-navigation-bar.svg?style=flat-square)](https://www.npmjs.com/package/enhanced-fluid-bottom-navigation-bar)
+[![NpmVersion](https://img.shields.io/npm/v/enhanced-fluid-bottom-navigation-bar.svg?style=flat-square)](https://www.npmjs.com/package/enhanced-fluid-bottom-navigation-bar-mod)
+[![NpmLicense](https://img.shields.io/npm/l/enhanced-fluid-bottom-navigation-bar.svg?style=flat-square)](https://www.npmjs.com/package/enhanced-fluid-bottom-navigation-bar-mod)
 [![Expo](https://img.shields.io/badge/expo-compatible-green.svg?style=flat-square)](https://expo.io/)
 
 This project improves the customization of [10clouds' fluid tab bar for React Native](https://github.com/10clouds/FluidBottomNavigation-rn).
 
 What's New in 0.2.5:
+- Start The Doctor Web customizations
 - Fix missing "useNativeDriver: false" in index.js
 
 What's New in 0.2.4:
@@ -35,12 +36,12 @@ Changelog:
 
 ### yarn (recommended)
 ```
-yarn add enhanced-fluid-bottom-navigation-bar
+yarn add enhanced-fluid-bottom-navigation-bar-mod
 ```
 
 ### npm
 ```
-npm i enhanced-fluid-bottom-navigation-bar
+npm i enhanced-fluid-bottom-navigation-bar-mod
 ```
 
 ## Usage
@@ -70,7 +71,7 @@ Look up valid icon names and their corresponding icon set at the [@expo/vector-i
 1. Define a custom component that renders `TabBar` with the `values` you want. React's tab navigator will pass `navigation` and `onTabPress` props to your component when hooked up; use these to implement the `onPress` callback to navigate to the appropriate route:
 
 ``` JSX
-import TabBar from 'enhanced-fluid-bottom-navigation-bar';
+import TabBar from 'enhanced-fluid-bottom-navigation-bar-mod';
 
 class FluidTabBar extends Component {
   render() {
