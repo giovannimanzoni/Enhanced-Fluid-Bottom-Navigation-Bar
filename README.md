@@ -6,6 +6,9 @@
 
 This project improves the customization of [10clouds' fluid tab bar for React Native](https://github.com/10clouds/FluidBottomNavigation-rn).
 
+What's New in 0.2.6:
+- Update/mod packages version
+
 What's New in 0.2.5:
 - Start The Doctor Web customizations
 - Fix missing "useNativeDriver: false" in index.js
